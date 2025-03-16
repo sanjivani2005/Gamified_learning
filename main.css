@@ -1,0 +1,179 @@
+@font-face {
+    font-family: 'Eracake';
+    src: url('/src/assets/eracake/Eracake.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.hero-content h1,
+.hero-content p {
+    font-family: 'Eracake', sans-serif;
+}
+
+.about h2, .features h2, .contact h2{
+    font-family: 'Eracake', sans-serif;
+}
+
+.about h2 {
+    font-size: 35px;
+}
+
+.contact h2 {
+    font-size: 35px;
+}
+.fas.fa-eye, .fas.fa-puzzle-piece, .fas.fa-apple-alt {
+    color: #333;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #dfedf9
+    url('/src/assets/download.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    color: #333; 
+    
+}
+
+header {
+    background: linear-gradient(45deg, #2b263d, #59beea);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Eracake', sans-serif;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #FFD700;
+}
+
+.hero {
+    background: url('https://source.unsplash.com/1600x900/?kids,play') no-repeat center center/cover;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-content h1 {
+    font-size: 50px;
+    margin: 0;
+    color: #262253;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+}
+
+.hero-content p {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #0e0e0e;
+}
+
+.cta-button {
+    background: #FF1493;
+    padding: 15px 35px;
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    border-radius: 50px;
+    transition: 0.3s;
+    font-weight: bold;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+}
+
+.cta-button:hover {
+    background: #262253;
+    transform: scale(1.1);
+}
+
+.about, .features, .contact {
+    padding: 50px;
+    text-align: center;
+    background: #e8dcfb;
+    margin: 30px auto;
+    width: 85%;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.features .feature-box {
+    display: inline-block;
+    width: 30%;
+    padding: 30px;
+    background: linear-gradient(45deg, #37314b, #59beea);
+    margin: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    color: #333;
+    transition: 0.3s;
+}
+
+.features{
+    font-size: 30px;
+}
+
+.feature-box:hover {
+    background: linear-gradient(45deg, #2b263d, #59beea);
+    transform: scale(1.05);
+}
+
+.feature-box i {
+    font-size: 60px;
+    color: #FF4500;
+    margin-bottom: 15px;
+}
+
+footer {
+    background: linear-gradient(45deg, #2b263d, #59beea);
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.feature-box {
+    display: block; /* Ensures the whole box is clickable */
+    text-decoration: none;
+    color: inherit; /* Keeps the text color same as before */
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.feature-box:hover {
+    transform: scale(1.05); /* Adds a hover effect */
+}
